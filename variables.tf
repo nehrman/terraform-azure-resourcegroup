@@ -38,6 +38,7 @@ variable az_tags {
   default = {
     "customer" = "titi",
     "environment" = "dev",
-    "TTL" = "24"
+    "TTL" = "24",
+    "Owner" = "neh"
     }
 }
