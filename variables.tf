@@ -37,7 +37,7 @@ variable az_tags {
   type = "map"
   default = {
     "customer" = "titi",
-    "environment" = "development",
+    "environment" = "dev",
     "TTL" = "24"
     }
 }
