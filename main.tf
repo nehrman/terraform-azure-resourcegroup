@@ -1,5 +1,5 @@
 # Use module "ResourceGroup" with appropriate variables to create Azure Resource Group
-# For Testing purpose test
+# For Testing purpose test during meetup
 
 module "rg" {
   source                     = "app.terraform.io/Hashicorp-neh-Demo/rg/azurerm"
@@ -13,6 +13,6 @@ module "rg" {
 
   tf_az_tags = "${var.az_tags}"
 }
-
++
 
   
