@@ -3,7 +3,7 @@ variable az_name {
 }
 
 variable az_env {
-  description = "Define the environment where resources will be created"
+  description = "Define the environment where resources will be created demo"
 }
 
 variable az_location {
