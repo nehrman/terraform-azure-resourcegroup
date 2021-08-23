@@ -12,6 +12,7 @@ output "virtual_network_name" {
 
 output "virtual_network_id" {
   value = module.rg.virtual_network_id
+  sensitive = true
 }
 
 output "subnets_name" {
