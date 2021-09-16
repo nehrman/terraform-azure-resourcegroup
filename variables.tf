@@ -1,10 +1,4 @@
 
-variable "module_version" {
-  description = "Name"
-  default = "2.0.3"
-}
-
-
 variable "az_env" {
   description = "Define the environment where resources will be created demo"
 }
