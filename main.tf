@@ -4,7 +4,7 @@
 module "rg" {
   source                     = "app.terraform.io/Hashicorp-neh-Demo/rg/azurerm"
   version                    = "2.0.3"
-#  tf_az_name                 = var.az_name
+  tf_az_name                 = var.az_name
   tf_az_env                  = var.az_env
   tf_az_location             = var.az_location
   tf_az_net_addr_space       = var.az_net_addr_space

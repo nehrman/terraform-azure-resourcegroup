@@ -1,4 +1,6 @@
-
+variable "az_name" {
+  description = "Define the environment where resources will be created demo"
+}
 variable "az_env" {
   description = "Define the environment where resources will be created demo"
 }
