@@ -1,5 +1,5 @@
 # Use module "ResourceGroup" with appropriate variables to create Azure Resource Group
-# For Testing purpose and Demo for a specific customer test
+# For Testing purpose and Demo for a specific test
 
 module "rg" {
   source                     = "app.terraform.io/Hashicorp-neh-Demo/rg/azurerm"
