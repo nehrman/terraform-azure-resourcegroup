@@ -1,7 +1,6 @@
 variable "az_name" {
-  description = "Name"
+  description = "Define the environment where resources will be created demo"
 }
-
 variable "az_env" {
   description = "Define the environment where resources will be created demo"
 }
@@ -18,7 +17,7 @@ variable "az_net_addr_space" {
 
 variable "az_subnet_prefixes" {
   description = "Define, via a list, the subnets prefixes. Must be in correlation with number or subnets"
-  type        = list(string)
+  type        = list
   default     = ["10.0.1.0/24", "10.0.2.0/24"]
 }
 

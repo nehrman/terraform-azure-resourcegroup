@@ -1,9 +1,9 @@
 # Use module "ResourceGroup" with appropriate variables to create Azure Resource Group
-# For Testing purpose
+# For Testing purpose and Demo for a specific customer test
 
 module "rg" {
   source                     = "app.terraform.io/Hashicorp-neh-Demo/rg/azurerm"
-  version                    = "2.0.3"
+  version                    = "3.0.0"
   tf_az_name                 = var.az_name
   tf_az_env                  = var.az_env
   tf_az_location             = var.az_location
